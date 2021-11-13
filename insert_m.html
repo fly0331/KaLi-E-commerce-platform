@@ -1,0 +1,64 @@
+<HTML>
+
+<HEAD>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>肥卡肥卡 卡哩卡哩</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="jquery-3.6.0.min.js"></script>
+</HEAD>
+
+<BODY BGCOLOR="#af9675">
+	<div id="header">	
+		
+            <h1><a href="index.html" title="肥卡肥卡 卡哩卡哩"><img src="下載.png" Width=60% alt="發生錯誤" border="0"></a></h1>
+       
+			<ul id="navi">
+				<li id="navi_02">
+					<a href="index.html">首頁</a>
+				</li>
+				<li id="navi_03">
+					<a href="menu.php">菜單一覽</a>
+				</li>
+				<li id="navi_04">
+					<a href="info.html">店面資訊</a>		
+				</li>
+				<li id="navi_05">
+					<a href="member.html">會員中心</a>
+				</li>
+				<li id="navi_06">
+					<a href="comment.php">留言板</a>
+				</li>
+				<li id="navi_07" >
+					<a href="car.php" title="購物車"><img src="a.png" width="50px" height="50px"  alt="發生錯誤" border="0"></a>
+				</li>
+			</ul>
+        
+	</div>
+	
+	 <div class="contents">
+		
+		<form name="form" action="insert_m.php" method="POST" accept-charset="UTF-8" align="center">
+		<fieldset>
+		<legend>新增顧客資料</legend>
+			<div id="member">
+				<p><label for="customername" class="title">姓名:</label>
+				<input type="text" id="customername" name="customername"/></br>
+				<label for="customerphone" class="title">手機:</label>
+				<input type="text" id="customerphone" name="customerphone"/></br></p>
+				<p><label for="customeraddress" class="title">住址:</label>
+				<input type="text" id="customeraddress" name="customeraddress"/></br>
+				<label for="customeremail" class="title">email:</label>
+				<input type="text" id="customeremail" name="customeremail"/></br></p>
+			
+				<input name="Submit2" type="button" class="btn" onclick="location.href='javascript:history.go(-1);'" value="返回" />
+				<input type="reset" value="清除表單">
+				<input type="submit" align="right" value="確認">
+			</div>
+		</fieldset>
+		</form>
+	</div>
+</BODY>
+
+</HTML>
